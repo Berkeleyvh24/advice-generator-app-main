@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+  margin: 0;
+}
+
+.container {
+  background: rgb(105, 145, 156);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  background-color: rgb(97, 223, 181);
+  border-radius: 50%;
+  color: #f8f9fa;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  align-self: flex-end;
+  margin-top: 1rem;
+}
+
+#advice-container {
+  color: rgb(97, 223, 181);
+}
+
+#advice-result {
+  color: white;
+}
+
+.pattern-divide {
+  display: inline-block;
+}/*# sourceMappingURL=style.css.map */
